@@ -1,0 +1,42 @@
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="jumbotron col-md-8" id="e_content" style="text-align: center;">
+    <p>問{{questionNumber}}</p>
+    <div class="col-md-2"></div>
+    <div class="col-md-8" style="text-align: left;">
+      <p ng-repeat="talk in talks">{{talk.name}} : {{talk.comment}}</p>
+      <br>
+      <div ng-repeat="question in questions">
+        <div ng-switch="question.questionType">
+          <div ng-switch-when="1">
+            <p>Question {{question.number}}</p>
+            <p>Q: {{question.question_line}}</p>
+            <div ng-repeat="answer in question.answers">
+              <p>
+                {{answer.name}}. {{answer.answer_line}}
+              </p>
+            </div>
+            <p>
+              <inline ng-repeat="answer in question.answers">
+                <input type="radio" ng-model="question.your_answer" name="group{{question.number}}" value="{{answer.name}}"> {{answer.name}}
+              </inline>
+            </p>
+            <br>
+          </div>
+          <div ng-switch-when="2">
+            <p>Question {{question.number}}</p>
+            <p>Q: {{question.question_line}}</p>
+            <p>
+              Answer: <input type="text" ng-model="question.your_answer">
+            </p>
+            <br>
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
+  </div>
+</div>
+<div style="text-align: center">
+  <input type="button" ng-click="nextQuestion()" value="{{button_value}}">
+</div>

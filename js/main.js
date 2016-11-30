@@ -74,7 +74,7 @@ app.config(['$routeProvider', function($routeProvider){
       templateUrl: 'partials/top-page.html'
     }).
     when('/pretest', {
-      templateUrl: 'partials/pre-test.html',
+      templateUrl: 'partials/pre-test-before.html',
     }).
     when('/question', {
       templateUrl: 'partials/pre-test-content.html',

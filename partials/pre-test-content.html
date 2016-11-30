@@ -1,11 +1,15 @@
+<link rel="stylesheet" type="text/css" href="css/pre-test-content.css">
 <div class="row">
   <div class="col-md-2"></div>
-  <div class="jumbotron col-md-8" id="e_content" style="text-align: center;">
-    <p>問{{questionNumber}}</p>
-    <div class="col-md-2"></div>
-    <div class="col-md-8" style="text-align: left;">
-      <p ng-repeat="talk in talks">{{talk.name}} : {{talk.comment}}</p>
+  <div class="jumbotron col-md-8" id="e_content">
+    <h1>問{{questionNumber}}</h1>
+    <div style="width: 100px;"></div>
+    <div style="text-align: left;">
+      <div ng-repeat="talk in talks"><div class="col-md-4">{{talk.name}} : </div><div class="col-md-8">{{talk.comment}}</div></div>
       <br>
+    </div>
+    <div class="col-md-2" style="float: none;"></div>
+    <div class="col-md-8" style="text-align: left;">
       <div ng-repeat="question in questions">
         <div ng-switch="question.questionType">
           <div ng-switch-when="1">

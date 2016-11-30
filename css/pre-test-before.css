@@ -1,0 +1,29 @@
+#top_title{
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #FF4444;
+}
+
+#e_title{
+  margin: 10px;
+  color: white;
+}
+
+#description_content{
+  margin-top: 15px;
+  padding: 30px;
+  border-radius: 20px;
+  backgroud-color: #FF4444;
+}
+
+#e_description{
+  margin: 10px auto 30px;
+  width: 800px;
+  text-align: center;
+}
+
+#e_next_div{
+  text-align: center;
+}

@@ -10,5 +10,9 @@
   {
     "name" : "Mike",
     "comment" : "AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop."
+  },
+  {
+    "name" : "John",
+    "comment" : "Hey! What's up!!"
   }
 ]

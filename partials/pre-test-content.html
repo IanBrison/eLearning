@@ -3,13 +3,12 @@
   <div class="col-md-2"></div>
   <div class="jumbotron col-md-8" id="e_content">
     <h1>問{{questionNumber}}</h1>
-    <div style="width: 100px;"></div>
-    <div style="text-align: left;">
-      <div ng-repeat="talk in talks"><div class="col-md-4">{{talk.name}} : </div><div class="col-md-8">{{talk.comment}}</div></div>
-      <br>
+    <div class="col-md-1"></div>
+    <div class="col-md-10" id="e_talks">
+      <div ng-repeat="talk in talks"><div class="col-md-2 e_talk_name">{{talk.name}} : </div><div class="col-md-10 e_talk_comment">{{talk.comment}}</div></div>
     </div>
-    <div class="col-md-2" style="float: none;"></div>
-    <div class="col-md-8" style="text-align: left;">
+    <div class="col-md-2"></div>
+    <div class="col-md-8" id="e_questions">
       <div ng-repeat="question in questions">
         <div ng-switch="question.questionType">
           <div ng-switch-when="1">
@@ -20,8 +19,8 @@
                 {{answer.name}}. {{answer.answer_line}}
               </p>
             </div>
-            <p>
-              <inline ng-repeat="answer in question.answers">
+            <p class="e_answer_radio_group">
+              <inline ng-repeat="answer in question.answers" class="e_answer_radio">
                 <input type="radio" ng-model="question.your_answer" name="group{{question.number}}" value="{{answer.name}}"> {{answer.name}}
               </inline>
             </p>

@@ -2,3 +2,28 @@
  text-align: center;
  padding-top: 15px;
 }
+
+#e_talks{
+  background-color: white;
+  border-radius: 20px;
+}
+
+.e_talk_name{
+  text-align: right;
+}
+
+.e_talk_comment{
+  text-align: left;
+}
+
+#e_questions{
+  text-align: left;
+}
+
+.e_answer_radio_group{
+  text-align: center;
+}
+
+.e_answer_radio{
+  margin-right: 15px;
+}

@@ -2,48 +2,61 @@
   {
     "number": "1",
     "questionType": "1",
-    "question_line": "How long does it take to the Airport?",
+    "question_line": "Choose something of the same meaning.",
     "answers":[
       {
         "name": "a",
-        "answer_line": "It's 30 minutes"
+        "answer_line": "This is some kind of mistake."
       },
       {
         "name": "b",
-        "answer_line": "Shut up!!"
+        "answer_line": "SheÅfs kind of cute."
       },
       {
         "name": "c",
-        "answer_line": "It's 30 minutes and 1 second"
+        "answer_line": "Vinegar is a kind of acid."
       }
     ],
-    "real_answer": "c"
+    "real_answer": "b"
   },
   {
     "number": "2",
     "questionType": "1",
-    "question_line": "How long does it take to the Airport?",
+    "question_line": "Answer the usage of the underlined part.",
     "answers":[
       {
         "name": "a",
-        "answer_line": "Why is it the same question"
+        "answer_line": "Emphasis."
       },
       {
         "name": "b",
-        "answer_line": "Yeaah!!"
+        "answer_line": "Reverse."
       },
       {
         "name": "c",
-        "answer_line": "It's 30 minutes and 1 second again"
+        "answer_line": "Negative."
       }
     ],
     "real_answer": "b"
   },
   {
     "number": "3",
-    "questionType": "2",
-    "question_line": "Write down the line after linsting to the voice",
-    "answers":[],
-    "real_answer": "How long does it take to go to the clothes shop by walking from here?"
+    "questionType": "1",
+    "question_line": "Answer the emotions expressed by the underlined expression.",
+    "answers":[
+      {
+        "name": "a",
+        "answer_line": "Anger."
+      },
+      {
+        "name": "b",
+        "answer_line": "Pleasure."
+      },
+      {
+        "name": "c",
+        "answer_line": "Surprise."
+      }
+    ],
+    "real_answer": "c"
   }
 ]

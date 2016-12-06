@@ -1,4 +1,5 @@
 <link rel="stylesheet" type="text/css" href="css/pre-test-content.css">
+<div id="yeah"></div>
 <div class="row">
   <div class="col-md-2"></div>
   <div class="jumbotron col-md-8" id="e_content">
@@ -16,7 +17,7 @@
             <p>Q: {{question.question_line}}</p>
             <div ng-repeat="answer in question.answers">
               <p>
-                {{answer.name}}. {{answer.answer_line}}
+                　{{answer.name}}.　{{answer.answer_line}}
               </p>
             </div>
             <p class="e_answer_radio_group">
@@ -41,5 +42,5 @@
   </div>
 </div>
 <div style="text-align: center">
-  <input type="button" ng-click="nextQuestion()" value="{{button_value}}">
+  <button id="bottom_next_button" class="btn btn-secondary btn-lg" ng-click="nextQuestion()" scroll-to="yeah">{{button_value}}</button>
 </div>

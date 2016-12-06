@@ -2,39 +2,39 @@
   {
     "number": "1",
     "questionType": "1",
-    "question_line": "How long does it take to the Airport?",
+    "question_line": "How did John go to the destination?",
     "answers":[
       {
         "name": "a",
-        "answer_line": "It's 30 minutes"
+        "answer_line": "By bus."
       },
       {
         "name": "b",
-        "answer_line": "Shut up!!"
+        "answer_line": "By taxy."
       },
       {
         "name": "c",
-        "answer_line": "It's 30 minutes and 1 second"
+        "answer_line": "On foot."
       }
     ],
-    "real_answer": "c"
+    "real_answer": "b"
   },
   {
     "number": "2",
     "questionType": "1",
-    "question_line": "How long does it take to the Airport?",
+    "question_line": "How long is it by taxi to the destination?",
     "answers":[
       {
         "name": "a",
-        "answer_line": "Why is it the same question"
+        "answer_line": "It's 30 minutes."
       },
       {
         "name": "b",
-        "answer_line": "Yeaah!!"
+        "answer_line": "It's 13 minutes."
       },
       {
         "name": "c",
-        "answer_line": "It's 30 minutes and 1 second again"
+        "answer_line": "It's 3 minutes."
       }
     ],
     "real_answer": "b"
@@ -42,7 +42,7 @@
   {
     "number": "3",
     "questionType": "2",
-    "question_line": "Write down the line after linsting to the voice",
+    "question_line": "Write English sentences as you listened.",
     "answers":[],
     "real_answer": "How long does it take to go to the clothes shop by walking from here?"
   }

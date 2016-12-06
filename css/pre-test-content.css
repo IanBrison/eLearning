@@ -1,11 +1,14 @@
 #e_content{
  text-align: center;
  padding-top: 15px;
+ padding-bottom: 0px;
 }
 
 #e_talks{
   background-color: white;
   border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 30px;
 }
 
 .e_talk_name{
@@ -24,6 +27,14 @@
   text-align: center;
 }
 
+.jumbotron p{
+  margin-bottom: 0px;
+}
+
 .e_answer_radio{
   margin-right: 15px;
+}
+
+#bottom_next_button{
+  margin-bottom: 30px;
 }

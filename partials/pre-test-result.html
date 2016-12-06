@@ -5,17 +5,20 @@
     <h1 id="e_title">プレテスト結果</h1>
   </div>
 </div>
-<div class="row" style="text-align: center">
+<div class="row">
   <div class="col-md-2"></div>
-  <div class="col-md-2" ng-repeat="result in preTestResults track by $index" style="height: 200px; width: 200px; border: thin solid black;">
-    <div>
-      <p>問{{$index + 1}} <strong>{{result.correct_numbers}}</strong>/{{result.question_numbers}}</p>
+  <div class="col-md-8" style="text-align: center">
+    <div class="col-md-1"></div>
+    <div class="col-md-2 each_score_div" ng-repeat="result in preTestResults track by $index">
+      <div>
+        <p>問{{$index + 1}} <strong>{{result.correct_numbers}}</strong>/{{result.question_numbers}}</p>
+      </div>
     </div>
   </div>
 </div>
 <div class="row">
   <div class="col-md-5"></div>
-  <div class="col-md-2" style="height: 200px; width: 200px; border: thin solid black;">
+  <div class="col-md-2" style="border: thin solid black;">
     <p><strong>{{all_correct_numbers}}</strong>/{{all_question_numbers}}</p>
   </div>
 </div>

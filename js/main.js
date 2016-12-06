@@ -1,7 +1,11 @@
 'use strict';
 
-var app = angular.module('eLearning', ['ngRoute']);
+var app = angular.module('eLearning', ['ngRoute', 'smoothScroll']);
 var preTestResults = [];
+
+app.controller('preTestController', [function(){
+  preTestResults = [];
+}]);
 
 app.controller('preTestContentController', ['$scope', '$http', '$anchorScroll', function($scope, $http, $anchorScroll){
   $scope.questionNumber = 0;
@@ -40,13 +44,12 @@ app.controller('preTestContentController', ['$scope', '$http', '$anchorScroll', 
     }).error(function(){
       $scope.questions = null;
     });;
-    $anchorScroll();
   }
   $scope.nextQuestion();
 }]);
 
 app.controller('preTestResultController', ['$scope', function($scope){
-  if(preTestResults == null){
+  if(preTestResults.length == 0){
     var result = {
       "question_numbers": 3,
       "correct_numbers": 2
@@ -75,6 +78,7 @@ app.config(['$routeProvider', function($routeProvider){
     }).
     when('/pretest', {
       templateUrl: 'partials/pre-test-before.html',
+      controller: 'preTestController'
     }).
     when('/question', {
       templateUrl: 'partials/pre-test-content.html',

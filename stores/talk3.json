@@ -1,14 +1,38 @@
 [
   {
-    "name" : "Mike",
-    "comment" : "Hi there!!"
+    "name" : "John",
+    "comment" : "Excuse me, may I ask you a question?"
+  },
+  {
+    "name" : "Tom",
+    "comment" : "OK. Please ask me anything."
   },
   {
     "name" : "John",
-    "comment" : "What's up!!"
+    "comment" : "I'd like to go to clothing store in 3rd Avenue, but IÅfm lost. How can I go there from here?"
   },
   {
-    "name" : "Mike",
-    "comment" : "The resulting environment is extraordinarily expressive, readable, and quick to develop."
+    "name" : "Tom",
+    "comment" : "First, go along the street until you see the big park on your left."
+  },
+  {
+    "name" : "Tom",
+    "comment" : "Then, if you turn right at the intersection near the park and go straight ahead, you will arrive."
+  },
+  {
+    "name" : "John",
+    "comment" : "Thank you very much. ( 3 )"
+  },
+  {
+    "name" : "Tom",
+    "comment" : "It takes more than 30 minutes to walk, so if you are in a hurry you should go by taxi. You can get there in 13 minutes by taxi."
+  },
+  {
+    "name" : "John",
+    "comment" : "Understood. Thank you. I think that I will stop walking to my destination and take a taxi."
+  },
+  {
+    "name" : "Tom",
+    "comment" : "You are welcome. Take care."
   }
 ]

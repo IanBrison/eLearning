@@ -1,14 +1,42 @@
 [
   {
-    "name" : "Mike",
-    "comment" : "Hi there!!"
+    "name" : "Clerk",
+    "comment" : "Hello. How may I help you?"
   },
   {
     "name" : "John",
-    "comment" : "What's up!!"
+    "comment" : "Well, Do you have a white sweater?"
   },
   {
-    "name" : "Mike",
-    "comment" : "AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop."
+    "name" : "Clerk",
+    "comment" : "Yes, we have. Follow me. I will show you."
+  },
+  {
+    "name" : "John",
+    "comment" : "Thank you. Can I try this on?"
+  },
+  {
+    "name" : "Clerk",
+    "comment" : "Sure. The fitting room is over here."
+  },
+  {
+    "name" : "John",
+    "comment" : "Hi, I tried this sweater, but ( 4 )"
+  },
+  {
+    "name" : "Clerk",
+    "comment" : "We have larger sizes, but I donÅft think we have any more in white. You can exchange it for another color though."
+  },
+  {
+    "name" : "John",
+    "comment" : "Oh. I really wanted to have it in white. Will you be getting another shipment of these sweaters sometime soon?"
+  },
+  {
+    "name" : "Clerk",
+    "comment" : "Sorry, We wonÅft be getting any more of that style. But let me check with our other store across town. ItÅfs possible they have a large one in white."
+  },
+  {
+    "name" : "John",
+    "comment" : "OK. IÅfll come at a later date. Thank you for today."
   }
 ]

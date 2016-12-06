@@ -1,6 +1,6 @@
 #top_title{
   margin-top: 15px;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
   padding: 10px;
   border-radius: 20px;
   background-color: #FF4444;
@@ -10,4 +10,8 @@
 #e_title{
   margin: 10px;
   color: white;
+}
+
+.each_score_div{
+  border: thin solid black;
 }

@@ -39,3 +39,17 @@
 #e_score_div_score_sum{
   font-size: 100px;
 }
+
+#e_pre_score_sum_div{
+  margin: 30px 0px 20px;
+  border: thin solid black;
+  text-align: center;
+}
+
+#e_pre_score_div_question_sum{
+  text-align: left;
+}
+
+#e_pre_score_div_score_sum{
+  font-size: 100px;
+}

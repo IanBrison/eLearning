@@ -6,7 +6,7 @@
     <h1>問{{questionNumber}}</h1>
     <div class="col-md-1"></div>
     <div class="col-md-10" id="e_talks">
-      <div ng-repeat="talk in talks"><div class="col-md-2 e_talk_name">{{talk.name}} : </div><div class="col-md-10 e_talk_comment">{{talk.comment}}</div></div>
+      <div class="e_talk_set" ng-repeat="talk in talks"><div class="col-md-2 e_talk_name">{{talk.name}} : </div><div class="col-md-10 e_talk_comment">{{talk.comment}}</div></div>
     </div>
     <div class="col-md-2"></div>
     <div class="col-md-8" id="e_questions">
@@ -31,7 +31,7 @@
             <p>Question {{question.number}}</p>
             <p>Q: {{question.question_line}}</p>
             <p>
-              Answer: <input type="text" ng-model="question.your_answer">
+              Answer: <input type="text" ng-model="question.your_answer" class="e_answer_write_type">
             </p>
             <br>
           </div>

@@ -30,6 +30,7 @@
 #e_content{
   height: 100%;
   margin-top: 15px;
+  text-align: center;
 }
 
 .e_tab_list{
@@ -42,4 +43,8 @@
 
 .make_things_right{
   text-align: right;
+}
+
+.e_lom_title{
+  text-align: center;
 }

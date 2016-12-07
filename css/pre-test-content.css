@@ -9,14 +9,17 @@
   border-radius: 20px;
   padding: 15px;
   margin-bottom: 30px;
+  font-size: 20px;
 }
 
 .e_talk_name{
   text-align: right;
+  margin-bottom: 5px;
 }
 
 .e_talk_comment{
   text-align: left;
+  margin-bottom: 5px;
 }
 
 #e_questions{
@@ -33,6 +36,10 @@
 
 .e_answer_radio{
   margin-right: 15px;
+}
+
+.e_answer_write_type{
+  width: 80%;
 }
 
 #bottom_next_button{

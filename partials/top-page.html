@@ -10,15 +10,64 @@
   <div class="col-md-2"></div>
   <div class="col-md-8" id="e_tab_div">
     <ul class="nav nav-justified" id="e_tab">
-      <li class="active e_tab_hov"><a class="e_tab_list" href="#">概要</a></li>
-      <li class="e_tab_hov"><a class="e_tab_list" href="#">学習</a></li>
-      <li class="e_tab_hov"><a class="e_tab_list" href="#">テスト</a></li>
+      <li class="e_tab_hov"><a class="e_tab_list" ng-click="click(1)">概要</a></li>
+      <li class="e_tab_hov"><a class="e_tab_list" ng-click="click(2)">学習</a></li>
+      <li class="e_tab_hov"><a class="e_tab_list" ng-click="click(3)">テスト</a></li>
     </ul>
   </div>
 </div>
 <div class="row">
   <div class="col-md-2"></div>
-  <div class="jumbotron col-md-8" id="e_content" style="text-align: center;">
-    <p>ここにコンテンツ</p>
+  <div class="jumbotron col-md-8" id="e_content">
+    <div ng-switch="content_type">
+      <div ng-switch-when="1">
+        <p>LOM情報</p>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th class="e_lom_title">#</th>
+              <th class="e_lom_title">First Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="e_lom_title">1</th>
+              <td>Mark</td>
+            </tr>
+            <tr>
+              <th scope="row" class="e_lom_title">2</th>
+              <td>Mark</td>
+            </tr>
+            <tr>
+              <th scope="row" class="e_lom_title">3</th>
+              <td>Jacob</td>
+            </tr>
+            <tr>
+              <th scope="row" class="e_lom_title">4</th>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div ng-switch-when="2">
+        <p>ここに学習教材が入ります</p>
+        <p>ここに学習教材が入ります</p>
+        <p>ここに学習教材が入ります</p>
+        <p>ここに学習教材が入ります</p>
+        <p>ここに学習教材が入ります</p>
+        <p>ここに学習教材が入ります</p>
+        <p>ここに学習教材が入ります</p>
+        <p>ここに学習教材が入ります</p>
+        <p>ここに学習教材が入ります</p>
+        <p>ここに学習教材が入ります</p>
+        <p>ここに学習教材が入ります</p>
+      </div>
+      <div ng-switch-when="3">
+        <p id="">学習はもう済んだでしょうか？<br>たくさんの教材を通してリスニング能力・会話への慣れは飛躍的に上がったはずです。<br><br>最終テストを受けてどれくらい伸びたか確認しましょう！！</p>
+        <div id="">
+          <input type="button" class="btn btn-danger" onclick="location.href='#/finaltest'" value="最終テストを受ける">
+        </div>
+      </div>
+    </div>
   </div>
 </div>

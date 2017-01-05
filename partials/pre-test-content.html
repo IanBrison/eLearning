@@ -8,6 +8,11 @@
     <div class="col-md-10" id="e_talks">
       <div class="e_talk_set" ng-repeat="talk in talks"><div class="col-md-2 e_talk_name">{{talk.name}} : </div><div class="col-md-10 e_talk_comment">{{talk.comment}}</div></div>
     </div>
+
+		<audio controls preload="auto">
+			<source src="sound/hiphop.mp3" type="audio/mpeg">
+		</audio>
+
     <div class="col-md-2"></div>
     <div class="col-md-8" id="e_questions">
       <div ng-repeat="question in questions">

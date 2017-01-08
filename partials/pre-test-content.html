@@ -9,9 +9,33 @@
       <div class="e_talk_set" ng-repeat="talk in talks"><div class="col-md-2 e_talk_name">{{talk.name}} : </div><div class="col-md-10 e_talk_comment">{{talk.comment}}</div></div>
     </div>
 
-		<audio controls preload="auto">
-			<source src="sound/hiphop.mp3" type="audio/mpeg">
-		</audio>
+		<div ng-switch="questionNumber">
+			<div ng-switch-when="1">
+				<audio controls preload="auto">
+					<source src="sound/sound1.mp3" type="audio/mpeg">
+				</audio>
+    	</div>
+			<div ng-switch-when="2">
+				<audio controls preload="auto">
+					<source src="sound/sound2.mp3" type="audio/mpeg">
+				</audio>
+    	</div>
+			<div ng-switch-when="3">
+				<audio controls preload="auto">
+					<source src="sound/sound3.mp3" type="audio/mpeg">
+				</audio>
+    	</div>
+			<div ng-switch-when="4">
+				<audio controls preload="auto">
+					<source src="sound/sound4.mp3" type="audio/mpeg">
+				</audio>
+    	</div>
+			<div ng-switch-when="5">
+				<audio controls preload="auto">
+					<source src="sound/sound5.mp3" type="audio/mpeg">
+				</audio>
+    	</div>
+		</div>
 
     <div class="col-md-2"></div>
     <div class="col-md-8" id="e_questions">

@@ -53,7 +53,7 @@ app.controller('preTestContentController', ['$scope', '$http', '$anchorScroll', 
       $scope.questions = data;
     }).error(function(){
       $scope.questions = null;
-    });;
+    });
   }
   $scope.nextQuestion();
 }]);

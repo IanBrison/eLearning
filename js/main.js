@@ -86,8 +86,13 @@ app.controller('preTestResultController', ['$scope', function($scope){
 
 app.controller('topPageController', ['$scope', function($scope){
   $scope.content_type = 1;
+  $scope.learning_num = 1;
   $scope.click = function(num){
     $scope.content_type = num;
+  }
+  $scope.dropdown_click = function(num){
+    $scope.learning_num = num;
+    $scope.content_type = 2;
   }
 }]);
 

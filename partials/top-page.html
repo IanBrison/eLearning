@@ -11,7 +11,13 @@
   <div class="col-md-8" id="e_tab_div">
     <ul class="nav nav-justified" id="e_tab">
       <li class="e_tab_hov"><a class="e_tab_list" ng-click="click(1)">概要</a></li>
-      <li class="e_tab_hov"><a class="e_tab_list" ng-click="click(2)">学習</a></li>
+      <li class="e_tab_hov dropdown"><a class="e_tab_list dropdown-toggle" data-toggle="dropdown" ng-click="click(2)">学習<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Submenu 1-1</a></li>
+          <li><a href="#">Submenu 1-2</a></li>
+          <li><a href="#">Submenu 1-3</a></li>
+        </ul>
+      </li>
       <li class="e_tab_hov"><a class="e_tab_list" ng-click="click(3)">テスト</a></li>
     </ul>
   </div>
@@ -23,12 +29,6 @@
       <div ng-switch-when="1">
         <p><strong>LOM情報</strong></p>
         <table id="e_lom_table" class="table table-bordered">
-          <!-- <thead>
-            <tr>
-              <th class="e_lom_title">#</th>
-              <th class="e_lom_title">First Name</th>
-            </tr>
-          </thead> -->
           <tbody>
             <tr>
               <th scope="row" class="e_lom_title">教材名称</th>
@@ -76,17 +76,14 @@
         </table>
       </div>
       <div ng-switch-when="2">
-        <p>ここに学習教材が入ります</p>
-        <p>ここに学習教材が入ります</p>
-        <p>ここに学習教材が入ります</p>
-        <p>ここに学習教材が入ります</p>
-        <p>ここに学習教材が入ります</p>
-        <p>ここに学習教材が入ります</p>
-        <p>ここに学習教材が入ります</p>
-        <p>ここに学習教材が入ります</p>
-        <p>ここに学習教材が入ります</p>
-        <p>ここに学習教材が入ります</p>
-        <p>ここに学習教材が入ります</p>
+        <div class="col-md-12" id="e_learn">
+          <p>hello</p>
+          <p>hello</p>
+          <p>hello</p>
+          <p>hello</p>
+          <p>hello</p>
+          <p>hello</p>
+        </div>
       </div>
       <div ng-switch-when="3">
         <p id="">学習はもう済んだでしょうか？<br>たくさんの教材を通してリスニング能力・会話への慣れは飛躍的に上がったはずです。<br><br>最終テストを受けてどれくらい伸びたか確認しましょう！！</p>

@@ -14,8 +14,8 @@
 
 .each_score_div{
   border: thin solid black;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 13px;
+  margin-right: 13px;
 }
 
 .e_score_div_question_num{
@@ -38,4 +38,20 @@
 
 #e_score_div_score_sum{
   font-size: 100px;
+}
+
+#score {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#sum_score {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
 }

@@ -5,21 +5,28 @@
     <h1 id="e_title">{{result_title}}</h1>
   </div>
 </div>
+
 <div class="row">
   <div class="col-md-2"></div>
-  <div class="col-md-8" style="text-align: center">
-    <div class="col-md-1"></div>
-    <div class="col-md-2 each_score_div" ng-repeat="result in preTestResults track by $index">
-      <div>
-        <p><div class="e_score_div_question_num">問{{$index + 1}}</div><div><strong class="e_score_div_score_num"> {{result.correct_numbers}}</strong> /{{result.question_numbers}}</div></p>
+  <div class="jumbotron col-md-8" id="score">
+    <div class="col-md-2"></div>
+    <div class="col-md-8" style="text-align: center">
+      <div class="col-md-2 each_score_div" ng-repeat="result in preTestResults track by $index">
+        <div>
+          <p><div class="e_score_div_question_num">問{{$index + 1}}</div><div><strong class="e_score_div_score_num"> {{result.correct_numbers}}</strong> /{{result.question_numbers}}</div></p>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
 <div class="row">
-  <div class="col-md-5"></div>
-  <div id="e_score_sum_div" class="col-md-2">
-    <p><div id="e_score_div_question_sum">合計</div><div><strong id="e_score_div_score_sum">{{all_correct_numbers}}</strong>/{{all_question_numbers}}</div></p>
+  <div class="col-md-2"></div>
+  <div class="jumbotron col-md-8" id="sum_score">
+    <div class="col-md-5"></div>
+    <div id="e_score_sum_div" class="col-md-2">
+      <p><div id="e_score_div_question_sum">合計</div><div><strong id="e_score_div_score_sum">{{all_correct_numbers}}</strong>/{{all_question_numbers}}</div></p>
+    </div>
   </div>
 </div>
 <div style="text-align: center">

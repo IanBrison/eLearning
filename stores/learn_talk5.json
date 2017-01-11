@@ -1,0 +1,58 @@
+[
+  {
+    "name" : "Officials",
+    "comment" : "Show me your passport, please."
+  },
+  {
+    "name" : "John",
+    "comment" : "Here it is."
+  },
+  {
+    "name" : "Officials",
+    "comment" : "Do you have return ticket?"
+  },
+  {
+    "name" : "John",
+    "comment" : "Yes. Here it is."
+  },
+  {
+    "name" : "Officials",
+    "comment" : "(    )"
+  },
+  {
+    "name" : "John",
+    "comment" : "( ‡@ )"
+  },
+  {
+    "name" : "Officials",
+    "comment" : "(    )"
+  },
+  {
+    "name" : "John",
+    "comment" : "( ‡A )"
+  },
+  {
+    "name" : "Officials",
+    "comment" : "(    )"
+  },
+  {
+    "name" : "John",
+    "comment" : "( ‡B )"
+  },
+  {
+    "name" : "Officials",
+    "comment" : "(    )"
+  },
+  {
+    "name" : "John",
+    "comment" : "( ‡C )"
+  },
+  {
+    "name" : "Officials",
+    "comment" : "OK! Have a nice day."
+  },
+  {
+    "name" : "John",
+    "comment" : "Thanks, you too."
+  }
+]

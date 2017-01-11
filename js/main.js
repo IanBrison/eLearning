@@ -84,8 +84,8 @@ app.controller('preTestResultController', ['$scope', function($scope){
   pre_test_all_correct_numbers = all_correct_numbers;
 }]);
 
-app.controller('topPageController', ['$scope', function($scope){
-  $scope.content_type = 1;
+app.controller('topPageController', ['$scope', '$http', function($scope, $http){
+  $scope.content_type = 2;
   $scope.learning_num = 1;
   $scope.click = function(num){
     $scope.content_type = num;
@@ -93,7 +93,18 @@ app.controller('topPageController', ['$scope', function($scope){
   $scope.dropdown_click = function(num){
     $scope.learning_num = num;
     $scope.content_type = 2;
+    $http.get('stores/learn_talk' + $scope.learning_num + '.json').success(function(data) {
+      $scope.learn_talks = data;
+    }).error(function(){
+      $scope.learn_talks = null;
+    });
+    $http.get('stores/learn_explanation' + $scope.learning_num + '.json').success(function(data) {
+      $scope.learn_explanations = data;
+    }).error(function(){
+      $scope.learn_explanations = null;
+    });
   }
+  $scope.dropdown_click(1);
 }]);
 
 app.controller('finalTestController', ['$scope', '$http', '$anchorScroll', function($scope, $http, $anchorScroll){

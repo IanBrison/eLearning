@@ -53,10 +53,45 @@
   font-size: 20px;
 }
 
-#e_learn{
+#e_learn_talks{
   background-color: white;
   border-radius: 20px;
   padding: 15px;
   margin-bottom: 30px;
   font-size: 20px;
+}
+
+.e_talk_name{
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.e_talk_comment{
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+#e_learn_explanation{
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.e_learn_explanation_set{
+  margin-bottom: 40px;
+}
+
+.e_learn_explanation_word{
+  text-align: left;
+  margin: 0 auto;
+}
+
+.jumbotron h1{
+  font-size: 200%;
+}
+
+.e_learn_explanation_explain{
+  text-align: left;
 }

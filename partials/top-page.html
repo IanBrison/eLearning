@@ -13,11 +13,11 @@
       <li class="e_tab_hov"><a class="e_tab_list" ng-click="click(1)">概要</a></li>
       <li class="e_tab_hov dropdown"><a class="e_tab_list dropdown-toggle" data-toggle="dropdown">学習<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a ng-click="dropdown_click(1)">1</a></li>
-          <li><a ng-click="dropdown_click(2)">2</a></li>
-          <li><a ng-click="dropdown_click(3)">3</a></li>
-          <li><a ng-click="dropdown_click(4)">4</a></li>
-          <li><a ng-click="dropdown_click(5)">5</a></li>
+          <li><a ng-click="dropdown_click(1)">空港の入国審査編</a></li>
+          <li><a ng-click="dropdown_click(2)">お店でのやり取り編</a></li>
+          <li><a ng-click="dropdown_click(3)">道を尋ねられたときのやり取り編</a></li>
+          <li><a ng-click="dropdown_click(4)">友達との会話編</a></li>
+          <li><a ng-click="dropdown_click(5)">スポーツ観戦編</a></li>
         </ul>
       </li>
       <li class="e_tab_hov"><a class="e_tab_list" ng-click="click(3)">テスト</a></li>
@@ -78,14 +78,18 @@
         </table>
       </div>
       <div ng-switch-when="2">
-        <div class="col-md-12" id="e_learn">
-          <p>{{learning_num}}</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
+        <div class="col-md-1"></div>
+        <div class="col-md-10" id="e_learn_talks">
+          <div class="e_talk_set" ng-repeat="talk in learn_talks"><div class="col-md-2 e_talk_name">{{talk.name}} : </div><div class="col-md-10 e_talk_comment">{{talk.comment}}</div></div>
+        </div>
+        <div class="col-md-12" id="e_learn_explanation">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <div class="e_learn_explanation_set" ng-repeat="explanation_set in learn_explanations">
+              <h1 class="e_learn_explanation_word">【{{explanation_set.word}}】</h1>
+              <div ng-repeat="explane_set in explanation_set.explanations"><p class="e_learn_explanation_explain">{{explane_set.explane}}</p></div>
+            </div>
+          </div>
         </div>
       </div>
       <div ng-switch-when="3">

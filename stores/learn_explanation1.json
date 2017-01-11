@@ -1,43 +1,105 @@
 [
   {
-    "word" : "What's up?",
+    "word" : "英語が聞き取れなかった時には、曖昧にしない",
     "explanations" : [
         {
-          "explane" : "'What's up?'は、特に意味を持たない挨拶。訳語としては「やあ」が一番ぴったり来る。なので、こちらも「やあ」と返せばいいのだ。"
+          "explane" : "Speak slowly, please.（ゆっくり話してください。）"
         },
         {
-          "explane" : "応用として'Hey ○○, what's up?'（○○には名前や、man, dudeといった呼びかけ表現が入る）'Nothing much, what's up?'　などがある。"
+          "explane" : "Could you speak in simple English？（易しい英語で話してください。）"
         },
         {
-          "explane" : " 同じように、'How are you?'に対しても、ネイティブは'I'm fine'などといったちゃんとした返事をしない人の方が多い。"
+          "explane" : "I'm poor at English.（英語がよくわかりません。）"
+        },
+        {
+          "explane" :"Does anybody here speak Japanese？（日本語が話せる人は、いますか？）"
+        },
+        {
+          "explane" :"アメリカのようなオープンな国でも、雇用など自国の利益を損ねかねない入国には厳しいです。滞在期間や目的などを間違えて伝えないよう注意しましょう。"
         }
       ]
   },
   {
-    "word" : "What's up?",
+    "word" : "空港でよく使う英単語",
     "explanations" : [
         {
-          "explane" : "'What's up?'は、特に意味を持たない挨拶。訳語としては「やあ」が一番ぴったり来る。なので、こちらも「やあ」と返せばいいのだ。"
+          "explane" : "Boarding pass(搭乗券）"
         },
         {
-          "explane" : "応用として'Hey ○○, what's up?'（○○には名前や、man, dudeといった呼びかけ表現が入る）'Nothing much, what's up?'　などがある。"
+          "explane" : "Boarding time (搭乗時間）"
         },
         {
-          "explane" : " 同じように、'How are you?'に対しても、ネイティブは'I'm fine'などといったちゃんとした返事をしない人の方が多い。"
+          "explane" : "Oversized baggage/Overweight baggage (規格外荷物）"
+        },
+        {
+          "explane" : "Carry on (luggage) (手荷物）"
+        },
+        {
+          "explane" : "Stopover (layover)（途中降機）"
+        },
+        {
+          "explane" : "Identification (ID)（身分証明）→ IDと略される場合は「身分証明になるもの」と解されることが多い"
+        },
+        {
+          "explane" : "One-way（片道）→移住を考えている方やすぐには帰国しない方はこれを買いましょう。往復チケットはreturn ticket、もしくはround trip ticketです。"
         }
       ]
   },
   {
-    "word" : "What's up?",
+    "word" : "注意すべき英単語（注意して聞き取る）",
     "explanations" : [
         {
-          "explane" : "'What's up?'は、特に意味を持たない挨拶。訳語としては「やあ」が一番ぴったり来る。なので、こちらも「やあ」と返せばいいのだ。"
+          "explane" : "■訪問の目的を聞きたい場合"
         },
         {
-          "explane" : "応用として'Hey ○○, what's up?'（○○には名前や、man, dudeといった呼びかけ表現が入る）'Nothing much, what's up?'　などがある。"
+          "explane" : "　purpose（パーパス／目的）"
         },
         {
-          "explane" : " 同じように、'How are you?'に対しても、ネイティブは'I'm fine'などといったちゃんとした返事をしない人の方が多い。"
+          "explane" : "　what（ワト／何）"
+        },
+        {
+          "explane" : "　why（ゥワイ／なぜ）"
+        },
+        {
+          "explane" : "■滞在期間を聞きたい場合"
+        },
+        {
+          "explane" : "　how long（ハウロング／どれくらいの長さ）"
+        },
+        {
+          "explane" : "　how many days（ハウメニデイズ／何日）"
+        },
+        {
+          "explane" : "　when（ウェン／いつ）"
+        },
+        {
+          "explane" : "　leave（リーヴ／出発する）"
+        },
+        {
+          "explane" : "■滞在先を聞きたい場合"
+        },
+        {
+          "explane" : "　where（ウェア／どこ）"
+        },
+        {
+          "explane" : "　which hotel（ウィチホウテル／どのホテル）"
+        },
+        {
+          "explane" : "　address（アドレス／住所）"
+        },
+        {
+          "explane" : "　in ○○（○○に国名・都市名／～で）"
+        }
+      ]
+  },
+  {
+    "word" : "・・・",
+    "explanations" : [
+        {
+          "explane" : "会話が終了すると、職員が最後は“Have a nice day” “Enjoy your stay” などと言ってくれるので、その時は必ず“Thanks (, you too)” と返すのが礼儀。"
+        },
+        {
+          "explane" : "なお、入国の時に限らず、タクシーに乗った時、お店で食事した時も、降り際、帰り際には“Have a nice day.” “Good evening” などと言ってみると◎。"
         }
       ]
   }

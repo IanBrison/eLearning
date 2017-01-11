@@ -1,22 +1,38 @@
 [
   {
-    "name" : "Tony",
-    "comment" : "What's up? ( 1 ). What are you doing?"
+    "name" : "John",
+    "comment" : "Excuse me, may I ask you a question?"
+  },
+  {
+    "name" : "Tom",
+    "comment" : "OK. Please ask me anything."
   },
   {
     "name" : "John",
-    "comment" : "Hey Tony, What's up? I Suddenly, are not you going to watch sports next time?"
+    "comment" : "I'd like to go to clothing store in 3rd Avenue, but I'm lost. How can I go there from here?"
   },
   {
-    "name" : "Tony",
-    "comment" : "It's really steep. Sounds good! I like to watch sports matches. There are sports which rules do not know very much, though. By the way, what are you going to see?"
+    "name" : "Tom",
+    "comment" : "First, go along the street until you see the big park on your left."
+  },
+  {
+    "name" : "Tom",
+    "comment" : "Then, if you turn right at the intersection near the park and go straight ahead, you will arrive."
   },
   {
     "name" : "John",
-    "comment" : "It's baseball. Giants' home game will be held at ABC Stadium."
+    "comment" : "Thank you very much. ( 3 )"
   },
   {
-    "name" : "Tony",
-    "comment" : "( 3 )? I thought that I wanted to go to that match just now!"
+    "name" : "Tom",
+    "comment" : "It takes more than 30 minutes to walk, so if you are in a hurry you should go by taxi. You can get there in 13 minutes by taxi."
+  },
+  {
+    "name" : "John",
+    "comment" : "Understood. Thank you. I think that I will stop walking to my destination and take a taxi."
+  },
+  {
+    "name" : "Tom",
+    "comment" : "You are welcome. Take care."
   }
 ]

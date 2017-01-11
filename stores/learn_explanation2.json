@@ -1,43 +1,189 @@
 [
   {
-    "word" : "What's up?",
+    "word" : "道を聞く・尋ねるときの英語表現",
     "explanations" : [
         {
-          "explane" : "'What's up?'は、特に意味を持たない挨拶。訳語としては「やあ」が一番ぴったり来る。なので、こちらも「やあ」と返せばいいのだ。"
+          "explane" : "・Do you know the way to ***？（***への道を知っていますか？）"
         },
         {
-          "explane" : "応用として'Hey ○○, what's up?'（○○には名前や、man, dudeといった呼びかけ表現が入る）'Nothing much, what's up?'　などがある。"
+          "explane" : "・Do you know the ***？Where is it？（***を知っていますか？どこにありますか？）"
         },
         {
-          "explane" : " 同じように、'How are you?'に対しても、ネイティブは'I'm fine'などといったちゃんとした返事をしない人の方が多い。"
+          "explane" : "・I'd like to go to ***.（***に行きたいのですが）"
+        },
+        {
+          "explane" : "・Is this the right way to ***？（これは***に行く道ですか？）"
+        },
+        {
+          "explane" : "　　＊Is this the way to ***？でもOK."
+        },
+        {
+          "explane" : "・Am I on the right road to ***？（***には、この道でいいんですか？）"
+        },
+        {
+          "explane" : "・Which way is the subway station？（地下鉄の駅は、どちらですか？）"
+        },
+        {
+          "explane" : "・Where is the nearest subway station？（一番近い地下鉄の駅はどこですか？）"
         }
       ]
   },
   {
-    "word" : "What's up?",
+    "word" : "距離やかかる時間を聞くときの英語表現",
     "explanations" : [
         {
-          "explane" : "'What's up?'は、特に意味を持たない挨拶。訳語としては「やあ」が一番ぴったり来る。なので、こちらも「やあ」と返せばいいのだ。"
+          "explane" : "・How long will it take from here to there by car？"
         },
         {
-          "explane" : "応用として'Hey ○○, what's up?'（○○には名前や、man, dudeといった呼びかけ表現が入る）'Nothing much, what's up?'　などがある。"
+          "explane" : "（ここからそこまで、車でどのくらい（時間が）かかりますか？）"
         },
         {
-          "explane" : " 同じように、'How are you?'に対しても、ネイティブは'I'm fine'などといったちゃんとした返事をしない人の方が多い。"
+          "explane" : "　　＊How long does it take～？でもOK."
+        },
+        {
+          "explane" : "・Is it far from here？（ここから遠いですか？）"
+        },
+        {
+          "explane" : "・Is it near here？（ここから近いですか？）"
+        },
+        {
+          "explane" : "・Will it take long？（時間は、長くかかりますか？）"
+        },
+        {
+          "explane" : "・How far away is it？（そこは、どのくらいの距離がありますか？）"
+        },
+        {
+          "explane" : "・Is it too far to walk？（歩くのには遠すぎますか？）"
         }
       ]
   },
   {
-    "word" : "What's up?",
+    "word" : "交通手段について聞くときの英語表現",
     "explanations" : [
         {
-          "explane" : "'What's up?'は、特に意味を持たない挨拶。訳語としては「やあ」が一番ぴったり来る。なので、こちらも「やあ」と返せばいいのだ。"
+          "explane" : "・Which is faster, by car or by train？（車と電車では、どちらが早いですか？）"
         },
         {
-          "explane" : "応用として'Hey ○○, what's up?'（○○には名前や、man, dudeといった呼びかけ表現が入る）'Nothing much, what's up?'　などがある。"
+          "explane" : "・Can I walk there？（そこまで歩いて行けますか？）"
         },
         {
-          "explane" : " 同じように、'How are you?'に対しても、ネイティブは'I'm fine'などといったちゃんとした返事をしない人の方が多い。"
+          "explane" : "・Can I go there by bus？（バスで行けますか？）"
+        },
+        {
+          "explane" : "・Is there any other way to go except going by taxi？ "
+        },
+        {
+          "explane" : "（タクシーで行く以外に、他の方法はありますか？）"
+        },
+        {
+          "explane" : "・Which is north？（どちらが北ですか？）"
+        },
+        {
+          "explane" : "・Is there a bus stop around here？（この辺に、バス停はありますか？）"
+        }
+      ]
+  },
+  {
+    "word" : "その他、覚えておくと便利な英語表現",
+    "explanations" : [
+        {
+          "explane" : "・I'm lost.（道に迷ってしまった）"
+        },
+        {
+          "explane" : "・Where am I now？（今どこにいるのかしら？）"
+        },
+        {
+          "explane" : "・Where am I on this map？（この地図で、私はどこにいるのでしょう？）"
+        },
+        {
+          "explane" : "・What street is this？（ここは何通りですか？）"
+        },
+        {
+          "explane" : "＊What's the name of this street？（この通りは、何と言う名前ですか）でもOK."
+        },
+        {
+          "explane" : "・Would you draw me a map, please？（ここに地図を書いてくださいますか？）"
+        },
+        {
+          "explane" : "・Are there any landmarks around there？（何か目印はありますか？）"
+        }
+      ]
+  },
+  {
+    "word" : "道順を教える／説明するときの英語表現",
+    "explanations" : [
+        {
+          "explane" : "・Go past the hospital.（病院を通り過ぎてください）"
+        },
+        {
+          "explane" : "・It's on the other side of the street.（道の反対側にあります）"
+        },
+        {
+          "explane" : "・It's on the corner.（道の角にあります）"
+        },
+        {
+          "explane" : "・It's at the end of this street.（この道のつきあたりにあります）"
+        }
+      ]
+  },
+  {
+    "word" : "距離・時間を教えるときの英語表現",
+    "explanations" : [
+        {
+          "explane" : "・It won't take long.（そんなに時間はかかりません）"
+        },
+        {
+          "explane" : "・It's just a few minutes' walk.（歩いて数分です）"
+        },
+        {
+          "explane" : "・It is not that far.（そんなに遠くはありません）"
+        },
+        {
+          "explane" : "・Not far.(遠くないですよ）"
+        },
+        {
+          "explane" : "・It's near here.（ちかいですよ）"
+        },
+        {
+          "explane" : "・It's too far.（かなり遠いです）"
+        }
+      ]
+  },
+  {
+    "word" : "その他、便利な英語表現",
+    "explanations" : [
+        {
+          "explane" : "・You've come the wrong way.（違う道を来てますよ）"
+        },
+        {
+          "explane" : "・I'm new here, too.（私も、ここは初めてです／私もここのことは良く知らないんです）"
+        },
+        {
+          "explane" : "　　＊I'm a stranger here, too.でもOK."
+        },
+        {
+          "explane" : "・I'm sorry. I don't know this area very well."
+        },
+        {
+          "explane" : "（すみません、この辺のことはよく知らないんです）"
+        },
+        {
+          "explane" : "　　＊I'm not familiar with this area.でもOK."
+        },
+        {
+          "explane" : "・I'll show you the way.　（道案内しましょう）"
+        },
+        {
+          "explane" : "・I'll take you there. Please follow me.（お連れします。ついてきてください）"
+        },
+        {
+          "explane" : "・I'll give you a ride.　（車で乗せていきますよ／車で送りましょう）"
+        },
+        {
+          "explane" : "・I'm going in the same direction.（私も同じ方向に行きます）"
+        },
+        {
+          "explane" : "　　＊direction（方向）の前置詞は、in。 in the direction of ～＝～の方向に、という意味。"
         }
       ]
   }

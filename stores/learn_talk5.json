@@ -1,58 +1,22 @@
 [
   {
-    "name" : "Officials",
-    "comment" : "Show me your passport, please."
+    "name" : "Tony",
+    "comment" : "What's up? It's kind of hot today. What are you doing?"
   },
   {
     "name" : "John",
-    "comment" : "Here it is."
+    "comment" : "Hey Tony, What's up? I Suddenly, are not you going to watch sports next time?"
   },
   {
-    "name" : "Officials",
-    "comment" : "Do you have return ticket?"
-  },
-  {
-    "name" : "John",
-    "comment" : "Yes. Here it is."
-  },
-  {
-    "name" : "Officials",
-    "comment" : "(    )"
+    "name" : "Tony",
+    "comment" : "It's really steep. Sounds good! I like to watch sports matches. There are sports which rules do not know very much, though. By the way, what are you going to see?"
   },
   {
     "name" : "John",
-    "comment" : "( ‡@ )"
+    "comment" : "It's baseball. Giants' home game will be held at ABC Stadium."
   },
   {
-    "name" : "Officials",
-    "comment" : "(    )"
-  },
-  {
-    "name" : "John",
-    "comment" : "( ‡A )"
-  },
-  {
-    "name" : "Officials",
-    "comment" : "(    )"
-  },
-  {
-    "name" : "John",
-    "comment" : "( ‡B )"
-  },
-  {
-    "name" : "Officials",
-    "comment" : "(    )"
-  },
-  {
-    "name" : "John",
-    "comment" : "( ‡C )"
-  },
-  {
-    "name" : "Officials",
-    "comment" : "OK! Have a nice day."
-  },
-  {
-    "name" : "John",
-    "comment" : "Thanks, you too."
+    "name" : "Tony",
+    "comment" : "No kidding? I thought that I wanted to go to that match just now!"
   }
 ]

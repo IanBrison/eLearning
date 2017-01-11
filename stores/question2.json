@@ -2,19 +2,19 @@
   {
     "number": "1",
     "questionType": "1",
-    "question_line": "Choose something of the same meaning.",
+    "question_line": "How did John go to the destination?",
     "answers":[
       {
         "name": "a",
-        "answer_line": "This is some kind of mistake."
+        "answer_line": "By bus."
       },
       {
         "name": "b",
-        "answer_line": "SheÅfs kind of cute."
+        "answer_line": "By taxy."
       },
       {
         "name": "c",
-        "answer_line": "Vinegar is a kind of acid."
+        "answer_line": "On foot."
       }
     ],
     "real_answer": "b"
@@ -22,41 +22,28 @@
   {
     "number": "2",
     "questionType": "1",
-    "question_line": "Answer the usage of the underlined part.",
+    "question_line": "How long is it by taxi to the destination?",
     "answers":[
       {
         "name": "a",
-        "answer_line": "Emphasis."
+        "answer_line": "It's 30 minutes."
       },
       {
         "name": "b",
-        "answer_line": "Reverse."
+        "answer_line": "It's 13 minutes."
       },
       {
         "name": "c",
-        "answer_line": "Negative."
+        "answer_line": "It's 3 minutes."
       }
     ],
     "real_answer": "b"
   },
   {
     "number": "3",
-    "questionType": "1",
-    "question_line": "Answer the emotions expressed by the underlined expression.",
-    "answers":[
-      {
-        "name": "a",
-        "answer_line": "Anger."
-      },
-      {
-        "name": "b",
-        "answer_line": "Pleasure."
-      },
-      {
-        "name": "c",
-        "answer_line": "Surprise."
-      }
-    ],
-    "real_answer": "c"
+    "questionType": "2",
+    "question_line": "Write English sentences as you listened.",
+    "answers":[],
+    "real_answer": "How long does it take to go to the clothes shop by walking from here?"
   }
 ]

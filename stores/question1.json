@@ -2,7 +2,7 @@
   {
     "number": "1",
     "questionType": "1",
-    "question_line": "What should I answer for ‡@?",
+    "question_line": "What should I answer for ( 1 )?",
     "answers":[
       {
         "name": "a",
@@ -22,7 +22,7 @@
   {
     "number": "2",
     "questionType": "1",
-    "question_line": "What should I answer for ‡A?",
+    "question_line": "What should I answer for ( 2 )?",
     "answers":[
       {
         "name": "a",
@@ -42,7 +42,7 @@
   {
     "number": "3",
     "questionType": "1",
-    "question_line": "What should I answer for ‡B?",
+    "question_line": "What should I answer for ( 3 )?",
     "answers":[
       {
         "name": "a",
@@ -62,7 +62,7 @@
   {
     "number": "4",
     "questionType": "1",
-    "question_line": "What should I answer for ‡C?",
+    "question_line": "What should I answer for ( 4 )?",
     "answers":[
       {
         "name": "a",

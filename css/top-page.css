@@ -79,6 +79,14 @@
   font-size: 20px;
 }
 
+#e_learn_title{
+  font-size: 400%;
+}
+
+.e_learn_img{
+  width: 100%;
+}
+
 .e_learn_explanation_set{
   margin-bottom: 40px;
 }

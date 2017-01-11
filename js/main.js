@@ -93,16 +93,18 @@ app.controller('topPageController', ['$scope', '$http', function($scope, $http){
   $scope.dropdown_click = function(num){
     $scope.learning_num = num;
     $scope.content_type = 2;
-    $http.get('stores/learn_talk' + $scope.learning_num + '.json').success(function(data) {
-      $scope.learn_talks = data;
-    }).error(function(){
-      $scope.learn_talks = null;
-    });
-    $http.get('stores/learn_explanation' + $scope.learning_num + '.json').success(function(data) {
-      $scope.learn_explanations = data;
-    }).error(function(){
-      $scope.learn_explanations = null;
-    });
+    if(num < 6){
+      $http.get('stores/learn_talk' + $scope.learning_num + '.json').success(function(data) {
+        $scope.learn_talks = data;
+      }).error(function(){
+        $scope.learn_talks = null;
+      });
+      $http.get('stores/learn_explanation' + $scope.learning_num + '.json').success(function(data) {
+        $scope.learn_explanations = data;
+      }).error(function(){
+        $scope.learn_explanations = null;
+      });
+    }
   }
   $scope.dropdown_click(1);
 }]);

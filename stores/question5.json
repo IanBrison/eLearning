@@ -2,11 +2,11 @@
   {
     "number": "1",
     "questionType": "1",
-    "question_line": "Choose something of the same meaning.",
+    "question_line": "Choose the same usage of the word 'kind' on the first line.",
     "answers":[
       {
         "name": "a",
-        "answer_line": "She's kind of cute."
+        "answer_line": "She's kind and cute."
       },
       {
         "name": "b",
@@ -22,7 +22,7 @@
   {
     "number": "2",
     "questionType": "1",
-    "question_line": "Answer the usage of the underlined part.",
+    "question_line": "Answer the usage of the term at ( 1 )",
     "answers":[
       {
         "name": "a",
@@ -42,7 +42,7 @@
   {
     "number": "3",
     "questionType": "1",
-    "question_line": "Answer the emotions expressed by the underlined expression.",
+    "question_line": "Answer the emotions expressed at ( 2 )",
     "answers":[
       {
         "name": "a",

@@ -5,11 +5,11 @@
   },
   {
     "name" : "John",
-    "comment" : "Hey Tony, What's up? I Suddenly, are not you going to watch sports next time?"
+    "comment" : "Hey Tony, I am hanging out. Suddenly, are not you going to watch sports next time?"
   },
   {
     "name" : "Tony",
-    "comment" : "It's really steep. Sounds good! I like to watch sports matches. There are sports which rules do not know very much, though. By the way, what are you going to see?"
+    "comment" : "It's really steep. Sounds good! I like to watch sports matches. There are sports which rules do not know very much, though. ( 1 ), what are you going to see?"
   },
   {
     "name" : "John",
@@ -17,6 +17,6 @@
   },
   {
     "name" : "Tony",
-    "comment" : "No kidding? I thought that I wanted to go to that match just now!"
+    "comment" : "( 2 )? I thought that I wanted to go to that match just now!"
   }
 ]

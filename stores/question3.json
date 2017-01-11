@@ -2,48 +2,64 @@
   {
     "number": "1",
     "questionType": "1",
-    "question_line": "How did John go to the destination?",
+    "question_line": "What kind of sweater did the customer want to buy?",
     "answers":[
       {
         "name": "a",
-        "answer_line": "By bus."
+        "answer_line": "He wanted a red one."
       },
       {
         "name": "b",
-        "answer_line": "By taxy."
+        "answer_line": "He wanted a wide one."
       },
       {
         "name": "c",
-        "answer_line": "On foot."
+        "answer_line": "He wanted a white one."
       }
     ],
-    "real_answer": "b"
+    "real_answer": "c"
   },
   {
     "number": "2",
     "questionType": "1",
-    "question_line": "How long is it by taxi to the destination?",
+    "question_line": "What was wrong with the sweater he tried on?",
     "answers":[
       {
         "name": "a",
-        "answer_line": "It's 30 minutes."
+        "answer_line": "It was too small."
       },
       {
         "name": "b",
-        "answer_line": "It's 13 minutes."
+        "answer_line": "It was too large."
       },
       {
         "name": "c",
-        "answer_line": "It's 3 minutes."
+        "answer_line": "It was a bit small."
       }
     ],
-    "real_answer": "b"
+    "real_answer": "a"
   },
   {
     "number": "3",
+    "questionType": "1",
+    "question_line": "Did the customer buy a sweater in the day?",
+    "answers":[
+      {
+        "name": "a",
+        "answer_line": "No, he didn't."
+      },
+      {
+        "name": "b",
+        "answer_line": "Yes, he did."
+      }
+    ],
+    "real_answer": "a"
+  },
+  {
+    "number": "4",
     "questionType": "2",
-    "question_line": "Write English sentences as you listened.",
+    "question_line": "Write the English sentence you heard at ( 1 ).",
     "answers":[],
-    "real_answer": "How long does it take to go to the clothes shop by walking from here?"
+    "real_answer": "Is it possible to exchange it for a larger size?"
   }
 ]

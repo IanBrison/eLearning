@@ -2,14 +2,14 @@
   {
     "number": "1",
     "questionType": "2",
-    "question_line": "Write English sentences as you listened.",
+    "question_line": "Write the English sentence you heard at ( 1 ).",
     "answers":[],
     "real_answer": "Do you still have seats of the home plate side?"
   },
   {
     "number": "2",
     "questionType": "1",
-    "question_line": "Answer the meaning of the part you heard.",
+    "question_line": "Answer the meaning of the part you heard at ( 2 ).",
     "answers":[
       {
         "name": "a",
@@ -29,7 +29,7 @@
   {
     "number": "3",
     "questionType": "1",
-    "question_line": "Answer the meaning of the part you heard.",
+    "question_line": "Answer the meaning of the part you heard at ( 3 ).",
     "answers":[
       {
         "name": "a",
@@ -49,7 +49,7 @@
   {
     "number": "4",
     "questionType": "1",
-    "question_line": "Answer the meaning of the part you heard.",
+    "question_line": "Answer the meaning of the part you heard at ( 4 ).",
     "answers":[
       {
         "name": "a",
@@ -64,6 +64,6 @@
         "answer_line": "Excitement."
       }
     ],
-    "real_answer": "a"
+    "real_answer": "c"
   }
 ]

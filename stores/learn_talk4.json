@@ -1,58 +1,54 @@
 [
   {
-    "name" : "Officials",
-    "comment" : "Show me your passport, please."
+    "name" : "John",
+    "comment" : "Do you still have tickets for today's game?"
+  },
+  {
+    "name" : "Staff",
+    "comment" : "Yes, we still have them. Which seat would you like?"
   },
   {
     "name" : "John",
-    "comment" : "Here it is."
+    "comment" : "Do you still have seats of the home plate side?"
   },
   {
-    "name" : "Officials",
-    "comment" : "Do you have return ticket?"
-  },
-  {
-    "name" : "John",
-    "comment" : "Yes. Here it is."
-  },
-  {
-    "name" : "Officials",
-    "comment" : "(    )"
+    "name" : "Staff",
+    "comment" : "Yes, we do. 2 adults?"
   },
   {
     "name" : "John",
-    "comment" : "( ‡@ )"
+    "comment" : "Yes, we are."
   },
   {
-    "name" : "Officials",
-    "comment" : "(    )"
-  },
-  {
-    "name" : "John",
-    "comment" : "( ‡A )"
-  },
-  {
-    "name" : "Officials",
-    "comment" : "(    )"
+    "name" : "Staff",
+    "comment" : "Then here you are. Please take the stair on your right side after going through the entrance."
   },
   {
     "name" : "John",
-    "comment" : "( ‡B )"
+    "comment" : "Thank you."
   },
   {
-    "name" : "Officials",
-    "comment" : "(    )"
-  },
-  {
-    "name" : "John",
-    "comment" : "( ‡C )"
-  },
-  {
-    "name" : "Officials",
-    "comment" : "OK! Have a nice day."
+    "name" : "Tony",
+    "comment" : "We were a little late but what about the game?"
   },
   {
     "name" : "John",
-    "comment" : "Thanks, you too."
+    "comment" : "Giants are losing by 2: 3. But Carter have a turn at bat and it's a chance scene!"
+  },
+  {
+    "name" : "Tony",
+    "comment" : "Go! You can do it!"
+  },
+  {
+    "name" : "John",
+    "comment" : "Oh!"
+  },
+  {
+    "name" : "Tony",
+    "comment" : "Did you see that!? Thatâ€™s our Carter! He hit home run!"
+  },
+  {
+    "name" : "John",
+    "comment" : "That was impressive! It was perfect!"
   }
 ]

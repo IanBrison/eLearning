@@ -1,7 +1,7 @@
 [
   {
     "name" : "John",
-    "comment" : "Do you still have tickets for todayÅfs game?"
+    "comment" : "Do you still have tickets for today's game?"
   },
   {
     "name" : "Staff",
@@ -33,22 +33,22 @@
   },
   {
     "name" : "John",
-    "comment" : "The score is three to two in favor of Rockies against Giants. But Carter have a turn at bat and it's a chance scene!"
+    "comment" : "Giants are losing by 2: 3. But Carter have a turn at bat and it's a chance scene!"
   },
   {
     "name" : "Tony",
     "comment" : "( 2 )"
   },
   {
-    "name" : "Tony",
-    "comment" : "Oh!"
-  },
-  {
-    "name" : "Tony",
+    "name" : "John",
     "comment" : "( 3 )"
   },
   {
-    "name" : "John",
+    "name" : "Tony",
     "comment" : "( 4 )"
+  },
+  {
+    "name" : "John",
+    "comment" : "That was impressive! It was perfect!"
   }
 ]

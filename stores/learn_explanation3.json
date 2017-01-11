@@ -1,43 +1,64 @@
 [
   {
-    "word" : "What's up?",
+    "word" : "■試着した服のサイズが合わなかった場合",
     "explanations" : [
         {
-          "explane" : "'What's up?'は、特に意味を持たない挨拶。訳語としては「やあ」が一番ぴったり来る。なので、こちらも「やあ」と返せばいいのだ。"
+          "explane" : "It didn't fit. （サイズ的に）合わなかった。"
         },
         {
-          "explane" : "応用として'Hey ○○, what's up?'（○○には名前や、man, dudeといった呼びかけ表現が入る）'Nothing much, what's up?'　などがある。"
+          "explane" : "I didn't like it on me. 自分に合わなかった。"
         },
         {
-          "explane" : " 同じように、'How are you?'に対しても、ネイティブは'I'm fine'などといったちゃんとした返事をしない人の方が多い。"
+          "explane" : "I was too big. It was too small. 大きすぎた。小さすぎた。"
+        },
+        {
+          "explane" : "I was too long. It was too short. 長すぎた。短すぎた。"
         }
       ]
   },
   {
-    "word" : "What's up?",
+    "word" : "■ほかの商品を求める場合",
     "explanations" : [
         {
-          "explane" : "'What's up?'は、特に意味を持たない挨拶。訳語としては「やあ」が一番ぴったり来る。なので、こちらも「やあ」と返せばいいのだ。"
+          "explane" : "Do you have this in pink? これのピンクはありますか？"
         },
         {
-          "explane" : "応用として'Hey ○○, what's up?'（○○には名前や、man, dudeといった呼びかけ表現が入る）'Nothing much, what's up?'　などがある。"
+          "explane" : "Do you have this in a small? こちらのSはありますか？"
         },
         {
-          "explane" : " 同じように、'How are you?'に対しても、ネイティブは'I'm fine'などといったちゃんとした返事をしない人の方が多い。"
+          "explane" : "Do you have this in another color? こちらの色違いはありますか？"
+        },
+        {
+          "explane" : "Is it possible to exchange it for a larger(smaller) size?　 もう少し大きな（小さな）サイズはありませんか？"
         }
       ]
   },
   {
-    "word" : "What's up?",
+    "word" : "■その他のよく使う表現",
     "explanations" : [
         {
-          "explane" : "'What's up?'は、特に意味を持たない挨拶。訳語としては「やあ」が一番ぴったり来る。なので、こちらも「やあ」と返せばいいのだ。"
+          "explane" : "I'm gonna (going to) think about it. 考えます。"
         },
         {
-          "explane" : "応用として'Hey ○○, what's up?'（○○には名前や、man, dudeといった呼びかけ表現が入る）'Nothing much, what's up?'　などがある。"
+          "explane" : "Can I look around a little more? もう少し見てもいいですか？"
         },
         {
-          "explane" : " 同じように、'How are you?'に対しても、ネイティブは'I'm fine'などといったちゃんとした返事をしない人の方が多い。"
+          "explane" : "I'd like to look around a little more.もう少し見たいです。"
+        },
+        {
+          "explane" : "Can I get this gift wrapped? プレゼント用に包んでもらえますか？"
+        },
+        {
+          "explane" : "Can I get an extra bag? 予備の袋を頂けますか？"
+        },
+        {
+          "explane" : "Can/Could I get a large bag? 大きな袋を頂けますか？"
+        },
+        {
+          "explane" : "Would you like your receipt with you or in the bag? レシートは、お渡ししますか、それとも袋にいれますか？"
+        },
+        {
+          "explane" : "In the bag please. 袋に入れてください。"
         }
       ]
   }

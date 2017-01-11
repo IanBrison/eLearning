@@ -1,38 +1,42 @@
 [
   {
-    "name" : "John",
-    "comment" : "Excuse me, may I ask you a question?"
-  },
-  {
-    "name" : "Tom",
-    "comment" : "OK. Please ask me anything."
+    "name" : "Clerk",
+    "comment" : "Hello. How may I help you?"
   },
   {
     "name" : "John",
-    "comment" : "I'd like to go to clothing store in 3rd Avenue, but IÅfm lost. How can I go there from here?"
+    "comment" : "Well, Do you have a white sweater?"
   },
   {
-    "name" : "Tom",
-    "comment" : "First, go along the street until you see the big park on your left."
-  },
-  {
-    "name" : "Tom",
-    "comment" : "Then, if you turn right at the intersection near the park and go straight ahead, you will arrive."
+    "name" : "Clerk",
+    "comment" : "Yes, we have. Follow me. I will show you."
   },
   {
     "name" : "John",
-    "comment" : "Thank you very much. ( 3 )"
+    "comment" : "Thank you. Can I try this on?"
   },
   {
-    "name" : "Tom",
-    "comment" : "It takes more than 30 minutes to walk, so if you are in a hurry you should go by taxi. You can get there in 13 minutes by taxi."
+    "name" : "Clerk",
+    "comment" : "Sure. The fitting room is over here."
   },
   {
     "name" : "John",
-    "comment" : "Understood. Thank you. I think that I will stop walking to my destination and take a taxi."
+    "comment" : "Hi, I tried this , but it's too small. (  1  )"
   },
   {
-    "name" : "Tom",
-    "comment" : "You are welcome. Take care."
+    "name" : "Clerk",
+    "comment" : "We have larger sizes, but I don't think we have any more in white. You can exchange it for another color though."
+  },
+  {
+    "name" : "John",
+    "comment" : "Oh. I really wanted to have it in white. Will you be getting another shipment of these sweaters sometime soon?"
+  },
+  {
+    "name" : "Clerk",
+    "comment" : "Sorry, We won't be getting any more of that style. But let me check with our other store across town. It's possible they have a large one in white."
+  },
+  {
+    "name" : "John",
+    "comment" : "OK. I'll come at a later date. Thank you for today."
   }
 ]

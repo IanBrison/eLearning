@@ -1,58 +1,42 @@
 [
   {
-    "name" : "Officials",
-    "comment" : "Show me your passport, please."
+    "name" : "Clerk",
+    "comment" : "Hello. How may I help you?"
   },
   {
     "name" : "John",
-    "comment" : "Here it is."
+    "comment" : "Well, Do you have a white sweater?"
   },
   {
-    "name" : "Officials",
-    "comment" : "Do you have return ticket?"
-  },
-  {
-    "name" : "John",
-    "comment" : "Yes. Here it is."
-  },
-  {
-    "name" : "Officials",
-    "comment" : "(    )"
+    "name" : "Clerk",
+    "comment" : "Yes, we have. Follow me. I will show you."
   },
   {
     "name" : "John",
-    "comment" : "( ‡@ )"
+    "comment" : "Thank you. Can I try this on?"
   },
   {
-    "name" : "Officials",
-    "comment" : "(    )"
-  },
-  {
-    "name" : "John",
-    "comment" : "( ‡A )"
-  },
-  {
-    "name" : "Officials",
-    "comment" : "(    )"
+    "name" : "Clerk",
+    "comment" : "Sure. The fitting room is over here."
   },
   {
     "name" : "John",
-    "comment" : "( ‡B )"
+    "comment" : "Hi, I tried this , but it's too small. Is it possible to exchange it for a larger size?"
   },
   {
-    "name" : "Officials",
-    "comment" : "(    )"
-  },
-  {
-    "name" : "John",
-    "comment" : "( ‡C )"
-  },
-  {
-    "name" : "Officials",
-    "comment" : "OK! Have a nice day."
+    "name" : "Clerk",
+    "comment" : "We have larger sizes, but I don't think we have any more in white. You can exchange it for another color though."
   },
   {
     "name" : "John",
-    "comment" : "Thanks, you too."
+    "comment" : "Oh. I really wanted to have it in white. Will you be getting another shipment of these sweaters sometime soon?"
+  },
+  {
+    "name" : "Clerk",
+    "comment" : "Sorry, We won't be getting any more of that style. But let me check with our other store across town. It's possible they have a large one in white."
+  },
+  {
+    "name" : "John",
+    "comment" : "OK. I'll come at a later date. Thank you for today."
   }
 ]

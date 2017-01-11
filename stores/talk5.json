@@ -1,42 +1,22 @@
 [
   {
-    "name" : "Clerk",
-    "comment" : "Hello. How may I help you?"
+    "name" : "Tony",
+    "comment" : "What's up? It's kind of hot today. What are you doing?"
   },
   {
     "name" : "John",
-    "comment" : "Well, Do you have a white sweater?"
+    "comment" : "Hey Tony, What's up? I Suddenly, are not you going to watch sports next time?"
   },
   {
-    "name" : "Clerk",
-    "comment" : "Yes, we have. Follow me. I will show you."
-  },
-  {
-    "name" : "John",
-    "comment" : "Thank you. Can I try this on?"
-  },
-  {
-    "name" : "Clerk",
-    "comment" : "Sure. The fitting room is over here."
+    "name" : "Tony",
+    "comment" : "It's really steep. Sounds good! I like to watch sports matches. There are sports which rules do not know very much, though. By the way, what are you going to see?"
   },
   {
     "name" : "John",
-    "comment" : "Hi, I tried this sweater, but ( 4 )"
+    "comment" : "It's baseball. Giants' home game will be held at ABC Stadium."
   },
   {
-    "name" : "Clerk",
-    "comment" : "We have larger sizes, but I donÅft think we have any more in white. You can exchange it for another color though."
-  },
-  {
-    "name" : "John",
-    "comment" : "Oh. I really wanted to have it in white. Will you be getting another shipment of these sweaters sometime soon?"
-  },
-  {
-    "name" : "Clerk",
-    "comment" : "Sorry, We wonÅft be getting any more of that style. But let me check with our other store across town. ItÅfs possible they have a large one in white."
-  },
-  {
-    "name" : "John",
-    "comment" : "OK. IÅfll come at a later date. Thank you for today."
+    "name" : "Tony",
+    "comment" : "No kidding? I thought that I wanted to go to that match just now!"
   }
 ]

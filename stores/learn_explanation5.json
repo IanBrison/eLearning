@@ -9,35 +9,104 @@
           "explane" : "応用として'Hey ○○, what's up?'（○○には名前や、man, dudeといった呼びかけ表現が入る）'Nothing much, what's up?'　などがある。"
         },
         {
-          "explane" : " 同じように、'How are you?'に対しても、ネイティブは'I'm fine'などといったちゃんとした返事をしない人の方が多い。"
+          "explane" : "同じように、'How are you?'に対しても、ネイティブは'I'm fine'などといったちゃんとした返事をしない人の方が多い。"
         }
       ]
   },
   {
-    "word" : "What's up?",
+    "word" : "like",
     "explanations" : [
         {
-          "explane" : "'What's up?'は、特に意味を持たない挨拶。訳語としては「やあ」が一番ぴったり来る。なので、こちらも「やあ」と返せばいいのだ。"
+          "explane" : "He is like a baby. 彼は赤ちゃんみたいだ。"
         },
         {
-          "explane" : "応用として'Hey ○○, what's up?'（○○には名前や、man, dudeといった呼びかけ表現が入る）'Nothing much, what's up?'　などがある。"
+          "explane" : "といった「～みたいだ」という使い方もあるが、そこから発展して、「ほら」、「あの」といった、次の言葉が思いつかなくて、探すときの繋ぎ言葉としてもよく使う。"
         },
         {
-          "explane" : " 同じように、'How are you?'に対しても、ネイティブは'I'm fine'などといったちゃんとした返事をしない人の方が多い。"
+          "explane" : "So like I go into this like salon place, y’know And I wanted like to get my toenails done."
+        },
+        {
+          "explane" : "「それでほら、あの、サロンみたいなとこに行って、ネイルやってもらおうとしたんだけど。」"
+        },
+        {
+          "explane" : "ただ、若者の喋り方なので、場面によってwellと使い分けることが大事。くだけた会話ではlike、ちゃんとしたい場合にはwellを使えばいい。かといって多用は好まれない。"
         }
       ]
   },
   {
-    "word" : "What's up?",
+    "word" : "kind of",
     "explanations" : [
         {
-          "explane" : "'What's up?'は、特に意味を持たない挨拶。訳語としては「やあ」が一番ぴったり来る。なので、こちらも「やあ」と返せばいいのだ。"
+          "explane" : "Maguro is a kind of fish.　「マグロは魚の一種だ。」"
         },
         {
-          "explane" : "応用として'Hey ○○, what's up?'（○○には名前や、man, dudeといった呼びかけ表現が入る）'Nothing much, what's up?'　などがある。"
+          "explane" : "といった、「～の一種だ」という表現から派生し、次の様に「ちょっと」の意味で使う。"
         },
         {
-          "explane" : " 同じように、'How are you?'に対しても、ネイティブは'I'm fine'などといったちゃんとした返事をしない人の方が多い。"
+          "explane" : "It's kind of hot today.　「今日はちょっと暑いなぁ。」"
+        },
+        {
+          "explane" : "「暑いの一種」→「ちょっと暑い」みたいな感覚。発音は「カインダ」もしくは「カイナ」となり、メールでも発音のとおりkindaと書いたりする。sort ofにも同様の使い方がある。"
+        }
+      ]
+  },
+  {
+    "word" : "weird",
+    "explanations" : [
+        {
+          "explane" : "He's kinda weird.　「彼ってちょっと変だよね。」"
+        },
+        {
+          "explane" : "It tastes a bit weird.　「これちょっと変な味するぞ。」"
+        },
+        {
+          "explane" : "という風に使う。 発音は/wiə:rd/（ウィアード）。「変」全般に使える。"
+        }
+      ]
+  },
+  {
+    "word" : "though",
+    "explanations" : [
+        {
+          "explane" : "文末において、「～だけどね」というニュアンスを出す。"
+        },
+        {
+          "explane" : "'Can I have some?' 'Sure, it's not really good, though.'"
+        },
+        {
+          "explane" : "「ちょっともらっていい？」「いいよ、あんまりおいしくないけど」"
+        },
+        {
+          "explane" : "接続詞としてしか習っていないと若干違和感のある言い回しだが、これもネイティブスピーカーが口癖のように極めてよく使う言い方だ。"
+        },
+        {
+          "explane" : "同じ用法としてbutを思い浮かべた人もいるかと思うがbutは等位接続詞でthoughは従位接続詞なので文の中の伝えたい事柄の優先度が変わってくるので注意。"
+        }
+      ]
+  },
+  {
+    "word" : "chill out/hang out",
+    "explanations" : [
+        {
+          "explane" : "両方とも、あてもなく過ごしているようなときに使うがニュアンスが少し違う。"
+        },
+        {
+          "explane" : "chill outは、「くつろぐ」というニュアンスがある。"
+        },
+        {
+          "explane" : "'What are you doing?' 'I'm just chilling out with my friends watching TV.'"
+        },
+        {
+          "explane" : "「何してるの？」「友達とテレビ見てゆっくりしてるだけだよ。」"
+        },
+        {
+          "explane" : "hang outは、「ぶらぶらする」というニュアンス。"
+        },
+        {
+          "explane" : "'You want to hang out tomorrow?'"
+        },
+        {
+          "explane" : "「明日何かして遊ばない？」"
         }
       ]
   }

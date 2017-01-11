@@ -2,64 +2,61 @@
   {
     "number": "1",
     "questionType": "1",
-    "question_line": "What kind of sweater did the customer want to buy?",
+    "question_line": "Choose something of the same meaning.",
     "answers":[
       {
         "name": "a",
-        "answer_line": "He bought a red one."
+        "answer_line": "She's kind of cute."
       },
       {
         "name": "b",
-        "answer_line": "He bought a wide one."
+        "answer_line": "This is some kind of mistake."
       },
       {
         "name": "c",
-        "answer_line": "He bought a white one."
+        "answer_line": "Vinegar is a kind of acid."
       }
     ],
-    "real_answer": "c"
+    "real_answer": "b"
   },
   {
     "number": "2",
     "questionType": "1",
-    "question_line": "What was wrong with the sweater he tried on?",
+    "question_line": "Answer the usage of the underlined part.",
     "answers":[
       {
         "name": "a",
-        "answer_line": "It was too small."
+        "answer_line": "Emphasis."
       },
       {
         "name": "b",
-        "answer_line": "It was too large."
+        "answer_line": "Reverse."
       },
       {
         "name": "c",
-        "answer_line": "It was bit small."
+        "answer_line": "Negative."
       }
     ],
-    "real_answer": "a"
+    "real_answer": "b"
   },
   {
     "number": "3",
     "questionType": "1",
-    "question_line": "Did the customer buy a sweater in the day?",
+    "question_line": "Answer the emotions expressed by the underlined expression.",
     "answers":[
       {
         "name": "a",
-        "answer_line": "No, he didnÅft."
+        "answer_line": "Anger."
       },
       {
         "name": "b",
-        "answer_line": "Yes, he did."
+        "answer_line": "Pleasure."
+      },
+      {
+        "name": "c",
+        "answer_line": "Surprise."
       }
     ],
-    "real_answer": "a"
-  },
-  {
-    "number": "4",
-    "questionType": "2",
-    "question_line": "Write English sentences as you heard.",
-    "answers":[],
-    "real_answer": "it's too small. Is it possible to exchange it for a larger size?"
+    "real_answer": "c"
   }
 ]

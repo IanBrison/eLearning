@@ -1,58 +1,34 @@
 [
   {
-    "name" : "Officials",
-    "comment" : "Show me your passport, please."
+    "name" : "John",
+    "comment" : "Excuse me, may I ask you a question?"
+  },
+  {
+    "name" : "Tom",
+    "comment" : "OK. Please ask me anything."
   },
   {
     "name" : "John",
-    "comment" : "Here it is."
+    "comment" : "I'd like to go to clothing store in 3rd Avenue, but I'm lost. How can I go there from here?"
   },
   {
-    "name" : "Officials",
-    "comment" : "Do you have return ticket?"
-  },
-  {
-    "name" : "John",
-    "comment" : "Yes. Here it is."
-  },
-  {
-    "name" : "Officials",
-    "comment" : "(    )"
+    "name" : "Tom",
+    "comment" : "First, go along the street until you see the big park on your left. Then, if you turn right at the intersection near the park and go straight ahead, you will arrive."
   },
   {
     "name" : "John",
-    "comment" : "( ‡@ )"
+    "comment" : "Thank you very much. How long does it take to go to the clothes shop by walking from here?"
   },
   {
-    "name" : "Officials",
-    "comment" : "(    )"
-  },
-  {
-    "name" : "John",
-    "comment" : "( ‡A )"
-  },
-  {
-    "name" : "Officials",
-    "comment" : "(    )"
+    "name" : "Tom",
+    "comment" : "It takes more than 30 minutes to walk, so if you are in a hurry you should go by taxi. You can get there in 13 minutes by taxi."
   },
   {
     "name" : "John",
-    "comment" : "( ‡B )"
+    "comment" : "Understood. Thank you. I think that I will stop walking to my destination and take a taxi."
   },
   {
-    "name" : "Officials",
-    "comment" : "(    )"
-  },
-  {
-    "name" : "John",
-    "comment" : "( ‡C )"
-  },
-  {
-    "name" : "Officials",
-    "comment" : "OK! Have a nice day."
-  },
-  {
-    "name" : "John",
-    "comment" : "Thanks, you too."
+    "name" : "Tom",
+    "comment" : "You are welcome. Take care."
   }
 ]
